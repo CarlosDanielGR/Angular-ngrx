@@ -6,5 +6,5 @@ export interface ItemModel {
 
 export interface ItemState {
   loading: boolean;
-  item: ReadonlyArray<ItemModel>;
+  items: ReadonlyArray<ItemModel>;
 }

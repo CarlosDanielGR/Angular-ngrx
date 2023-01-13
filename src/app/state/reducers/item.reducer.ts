@@ -4,7 +4,7 @@ import { loadItems } from '../actions/item.action';
 
 export const initialState: ItemState = {
   loading: false,
-  item: [],
+  items: [],
 };
 
 export const itemReducer = createReducer(
