@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { loadItems } from 'src/app/state/actions/item.actions';
+import { loadItems } from 'src/app/state/actions/item.action';
 
 @Component({
   selector: 'app-show-case-page',
